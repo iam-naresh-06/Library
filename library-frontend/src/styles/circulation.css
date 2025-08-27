@@ -1,0 +1,36 @@
+/* src/styles/circulation.css */
+
+.circulation-container {
+  padding: 1rem;
+}
+
+.circulation-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.circulation-table th, .circulation-table td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+}
+
+.circulation-table th {
+  background-color: #f0f0f0;
+}
+
+.circulation-table tr:hover {
+  background-color: #f9f9f9;
+}
+
+.circulation-table button {
+  padding: 0.3rem 0.6rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.circulation-table button:hover {
+  background-color: #0056b3;
+}
